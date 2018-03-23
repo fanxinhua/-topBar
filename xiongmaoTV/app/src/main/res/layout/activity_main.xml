@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="dd.fanxinhua.com.xiongmaotv.MainActivity">
+
+    <dd.fanxinhua.com.xiongmaotv.TopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00f"
+        app:leftText="返回"
+        app:leftTextColor="#000"
+        app:leftTextSize="10sp"
+        app:leftTextbackgroung="#f00"
+        app:rightText="更多"
+        app:rightTextColor="#000"
+        app:rightTextSize="10sp"
+        app:rightTextbackgroung="#f0f"
+        app:titleText="中心标题"
+        app:titleTextColor="#ff0"
+        app:titleTextSize="15sp"></dd.fanxinhua.com.xiongmaotv.TopBar>
+
+</LinearLayout>
